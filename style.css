@@ -1,6 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+body{
+	margin: 0;
+}
 
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
 
-
-
+.home{
+	min-height: 100vh;
+	background-image: url("images/profile.jpg");
+	background-size: cover;
+	background-position: center;
+}
