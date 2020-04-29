@@ -1,1 +1,1 @@
-This is my personal/professional website. Template from Jekyll Single Paged. 
+This is my personal/professional website. Built from scracth using HTML!
