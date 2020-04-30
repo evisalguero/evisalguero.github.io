@@ -22,17 +22,37 @@ header{
 	left: 0px;
 	right: 0px;
 	margin: auto;
+	padding: 0px 15px;
+	/*border-bottom: 1px solid #423940;*/
 }
 header .row{
 	justify-content: space-between;
+	align-items: center;
 }
-header .brand-name{
-	background-color: blue;
+header .brand-name a{
+	/*background-color: blue;*/
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 600;
+	color: #ff4105;
+	text-transform: uppercase;
+	position: relative;
+}
+
+header .brand-name a::before{
+	content: '';
+	height: 3px;
+	background-color: #ff4105;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
 
 }
-header .navbar{
-	/*background-color: red;*/
-}
+
+
+
+
 header .navbar ul{
 	list-style: none;
 	padding: 0;
@@ -41,6 +61,7 @@ header .navbar ul{
 header .navbar ul li{
 	display: inline-block;
 	margin-left: 35px;
+	z-index: 10;
 }
 header .navbar ul li a{
 	font-size: 15px;
@@ -48,13 +69,73 @@ header .navbar ul li a{
 	line-height: 72px;
 	color: #ff4105;
 	font-weight: 600;
+	position: relative;
+	display: block;
 }
+header .navbar ul li a.active::before{
+	content: '';
+	height: 3px;
+	background-color: #ff4105;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	bottom: -1px;
 
+}
 
 
 .home{
 	min-height: 100vh;
-	background-image: url("images/profile.jpg");
+	/*background-image: url("images/profile.jpg");*/
+	background-color: #33BDFF;
 	background-size: cover;
 	background-position: center;
 }
+.home .full-screen{
+	min-height: 100vh;
+}
+.home .home-content{
+	flex: 0 0 100%;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+}
+
+.home .home-content .block{
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
+.home .home-content .block h6{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+
+}
+.home .home-content .block h1{
+	color: #ffffff;
+	font-size: 70px;
+	font-weight: 600;
+	margin: 0 0 10px;
+	padding: 0;
+	line-height: 1.2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
