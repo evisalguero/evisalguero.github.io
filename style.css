@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
+html{
+	scroll-behavior: smooth;
+}
+
+
 body{
 	font-family: 'Noto Sans', serif;
 	margin: 0;
@@ -27,6 +32,7 @@ header{
 	right: 0px;
 	margin: auto;
 	padding: 0px 15px;
+	z-index: 11;
 	/*border-bottom: 1px solid #423940;*/
 }
 header .row{
@@ -253,8 +259,9 @@ header .navbar ul li a.active::before{
 
 /*footer*/
 footer{
-	padding: 80px 15px;
+	padding: 70px 15px;
 	background-color: #000000;
+	align-content: center;
 }
 footer .logo{
 	flex: 0 0 100%;
@@ -277,6 +284,7 @@ footer .social a{
 	display: inline-block;
 	margin: 0px 12px;
 	transition: all .5s ease;
+	align-content: center;
 }
 
 footer .social a:hover{
@@ -284,7 +292,101 @@ footer .social a:hover{
 
 }
 
+.hamburger-style .fas{
+	font-size: 20px;
+	color: #ffffff;
+	height: 30px;
+	width: 35px;
+	background-color: #ffffff;
+	color: #000000;
+	border-radius: 3px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+	border: 1px solid #eeeeee;
 
+}
 
+@media(max-width: 991px){
+	.home .home-content .block h1{
+		font-size: 50px;
+	}
+}
+
+@media(max-width: 767px){
+	.home .home-content .block h1{
+		font-size: 40px;
+	}
+	.home .home-content .block h3{
+		font-size: 25px;
+	}
+	header{
+		padding: 15px;
+		position: fixed;
+		background-color: #ffffff;
+		border: none;
+		border-bottom: 1px solid #eeeeee;
+	}
+	header .brand-name a{
+		color: #000000;
+
+		
+	}
+	.hamburger-style .fas{
+		display: inline-block;
+	}
+	.navbar{
+		position: absolute;
+		background-color: #ffffff;
+		width: 100%;
+		left: 0px;
+		top: 60px;
+		padding: 15px;
+		border-top: 1px solid #eeeeee;
+		display: none;
+		border-bottom: 1px solid #eeeeee;
+	}
+	.navbar .show{
+		display: block;
+	}
+	header .navbar ul li{
+		display: block;
+		margin-left: 0;
+	}
+	header .navbar ul li a{
+		line-height: 42px;
+		color: #000000;
+	}
+	header .navbar ul li a::before{
+		background-color: #febd01;
+
+	}
+	.about-me .about-content .text{
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding-left: 0px;
+		padding-top: 30px;
+	}
+	.about-me .about-content .img{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+}
+
+@media(max-width: 500px){
+	.home .home-content .block h1{
+		font-size: 30px;
+	}
+	.home .home-content .block h3{
+		font-size: 20px;
+	}
+
+	.home .home-content .block{
+		padding-left: 20px;
+
+	}
+}
 
 
