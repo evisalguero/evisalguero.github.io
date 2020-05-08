@@ -1,0 +1,16 @@
+experience descriptions
+
+For a summer internship as a sophomore, I had the opportunity to work as a software engineer for the Aladdin Product Group (APG). Along with three other interns, I developed a web application for teams within the company to track their integration tests, unit tests, and other methods of quality assurance. Our project allowed data from project builds to be added to our database and displayed on the dashboard in an accessible way. Technologies used to develop this dashboard include: Angular, HTML, TypeScript, Java.
+
+College of Computing
+Teaching Assistant
+
+Worked as an undergraduate TA for Introduction To Computing taught in Python. As a TA, I led recitation sessions and
+worked with my co-TA's to teach students the foundations of computing. 
+
+
+Georgia Tech Christian Students
+Student officer
+As a member and officer of GTCS club, I contributed in the areas of outreach and social media. 
+As a club, we have weekly outreach tables on Tech Walkway, during this time we meet new students, distribute fliers, and more. For social media, I help create posts using Canva, and am responsible for updating Instrgram, Twitter, and Facebook.
+

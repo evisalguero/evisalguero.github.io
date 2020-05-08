@@ -268,7 +268,7 @@ header .navbar ul li a.active::before{
 	flex: 0 0 100%;
 	max-width: 100%;
 	margin-bottom: 40px;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .experience .section-title h1{
@@ -280,6 +280,43 @@ header .navbar ul li a.active::before{
 	color: #000000;
 	position: relative;
 	border-bottom: 2px solid #febd01;
+}
+.experience .experience-content{
+	padding-left: 15px;
+
+}
+
+.experience .experience-content .img{
+	padding-bottom: 15px;
+
+}
+.experience .experience-content .img img{
+	/*width: 46%;*/
+	vertical-align: top;
+	padding: 0px 0px 0px;
+	width: 150px;
+	padding-bottom: 20px;
+}
+.experience .experience-content .text{
+	width: 46%;
+	padding-left: 25px;
+	
+
+}
+.experience .experience-content .text h4{
+
+}
+
+.experience .experience-content .text h5{
+
+}
+
+.experience .experience-content .text p{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-bottom: 20px;
 }
 
 
@@ -305,6 +342,37 @@ header .navbar ul li a.active::before{
 	color: #000000;
 	position: relative;
 	border-bottom: 2px solid #febd01;
+}
+
+.community .community-content{
+	padding-left: 15px;
+
+}
+
+.community .community-content .img{
+	padding-bottom: 15px;
+
+}
+.community .community-content .img img{
+	/*width: 46%;*/
+	vertical-align: top;
+	padding: 0px 0px 0px;
+	width: 150px;
+	padding-bottom: 20px;
+}
+.community .community-content .text{
+	width: 46%;
+	padding-left: 25px;
+	
+
+}
+
+.community .community-content .text p{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-bottom: 20px;
 }
 
 
