@@ -169,7 +169,6 @@ header .navbar ul li a.active::before{
 .about-me{
 	padding: 100px 15px;
 	background-color: #ffffff;
-
 }
 
 .about-me .section-title{
@@ -196,6 +195,7 @@ header .navbar ul li a.active::before{
 	background-color: #febd01;
 	bottom: 0px;
 	right: 30%;
+	text-align: center;
 }
 
 .text-uppercase{
@@ -257,6 +257,58 @@ header .navbar ul li a.active::before{
 	color: #838383;
 }
 
+/*experience*/
+.experience{
+	padding: 100px 15px;
+	background-color: #d3d3d3;
+
+}
+
+.experience .section-title{
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.experience .section-title h1{
+	display: inline-block;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	color: #000000;
+	position: relative;
+	border-bottom: 2px solid #febd01;
+}
+
+
+/*community*/
+.community{
+	padding: 100px 15px;
+	background-color: #ffffff;
+
+}
+
+.community .section-title{
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+
+.community .section-title h1{
+	display: inline-block;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	color: #000000;
+	position: relative;
+	border-bottom: 2px solid #febd01;
+}
+
+
+
 /*footer*/
 footer{
 	padding: 70px 15px;
@@ -284,7 +336,6 @@ footer .social a{
 	display: inline-block;
 	margin: 0px 12px;
 	transition: all .5s ease;
-	align-content: center;
 }
 
 footer .social a:hover{
