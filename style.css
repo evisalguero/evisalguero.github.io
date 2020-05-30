@@ -49,6 +49,17 @@ header .brand-name a{
 	position: relative;
 }
 
+/*.sticky {
+  position: fixed;
+  top: 20;
+  width: 100%;
+  background-color: #ffffff;
+}*/
+
+/*.sticky + .content {
+  padding-top: 60px;
+}
+*/
 /*header .brand-name a::before{
 	content: '';
 	height: 3px;
