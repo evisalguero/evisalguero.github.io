@@ -331,20 +331,20 @@ header .navbar ul li a.active::before{
 }
 
 
-/*community*/
-.community{
+/*leadership*/
+.leadership{
 	padding: 100px 15px;
 	background-color: #ffffff;
 
 }
 
-.community .section-title{
+.leadership .section-title{
 	flex: 0 0 100%;
 	max-width: 100%;
 	margin-bottom: 40px;
 }
 
-.community .section-title h1{
+.leadership .section-title h1{
 	display: inline-block;
 	font-size: 35px;
 	font-weight: 700;
@@ -355,30 +355,30 @@ header .navbar ul li a.active::before{
 	border-bottom: 2px solid #febd01;
 }
 
-.community .community-content{
+.leadership .leadership-content{
 	padding-left: 15px;
 
 }
 
-.community .community-content .img{
+.leadership .leadership-content .img{
 	padding-bottom: 15px;
 
 }
-.community .community-content .img img{
+.leadership .leadership-content .img img{
 	/*width: 46%;*/
 	vertical-align: top;
 	padding: 0px 0px 0px;
 	width: 150px;
 	padding-bottom: 20px;
 }
-.community .community-content .text{
+.leadership .leadership-content .text{
 	width: 46%;
 	padding-left: 25px;
 	
 
 }
 
-.community .community-content .text p{
+.leadership .leadership-content .text p{
 	display: inline-block;
 	font-size: 15px;
 	font-weight: 400;
