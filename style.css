@@ -521,7 +521,6 @@ footer .social a:hover{
 	flex: 0 0 100%;
 	max-width: 100%;
 	margin-bottom: 20px;
-	/*text-align: center;*/
 	}
 
 	.experience .experience-content .text{
@@ -531,19 +530,15 @@ footer .social a:hover{
 
 	}
 	.experience .experience-content .img img{
-	/*width: 46%;*/
 	vertical-align: top;
 	padding: 0px 0px 0px;
 	width: 150px;
 	padding-bottom: 10px;
 	padding-top: 25px;
 	padding-left: 0px;
-	/*width:50px;*/
 	}
 	.experience .experience-content .text p{
 	padding-bottom: 15px;
-	/*display: block;*/
-	/*width: 100%;*/
 	display: inline;
 	}
 
