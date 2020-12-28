@@ -356,7 +356,9 @@ header .navbar ul li a.active::before{
 footer{
 	padding: 70px 15px;
 	background-color: #000000;
-	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	/*align-content: center;*/
 }
 footer .logo{
 	flex: 0 0 100%;
@@ -365,6 +367,7 @@ footer .logo{
 	font-size: 45px;
 	color: #ffffff;
 	font-weight: 900;
+	/*align-content: center;*/
 }
 footer .social{
 	flex: 0 0 100%;
