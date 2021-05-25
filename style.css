@@ -91,7 +91,7 @@ header .navbar ul li a.active::before{
 /*Home */
 .home{
 	min-height: 100vh;
-	background-image: url("images/sunset.jpg");
+	background-image: url("images/mountains.jpg");
 	/*background-color: #33BDFF;*/
 	background-size: cover;
 	background-position: center;
